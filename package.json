@@ -1,0 +1,32 @@
+{
+  "name": "challengetwomobixsoftwarestudio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "run": "node dist/index.js",
+    "start": "npm run build && npm run db && npm run run",
+		"db": "node dist/services/insertData.js",
+		"dev": "tsnd --transpile-only --ignore-watch node_modules --respawn src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "image-to-base64": "^2.2.0",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.4",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/image-to-base64": "^2.1.0",
+    "@types/node": "^17.0.21",
+    "ts-node-dev": "^1.1.8"
+  }
+}
