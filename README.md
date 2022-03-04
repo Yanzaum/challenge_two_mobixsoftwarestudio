@@ -1,6 +1,10 @@
 # challenge_two_mobixsoftwarestudio
 Resolução do segundo desafio do Mobix Software Studio.
 
+## Replit
+
+Visualize o projeto no [Replit](https://replit.com/@YanDavid1/challengetwomobixsoftwarestudio)
+
 ## Experiência
 Um grande novo desafio, com um auto desafio promovido por mim, pela primeira vez utilizando o TypeScript e Replit em um projeto prático, inicialmente as ideias foram surgindo e foi fluindo normalmente, até que surgiu um momento de dificuldade com o tempo de execução para retornar as promessas, mas, ao debugar e ver como o código estava se comportando, tive a solução, solucionei e continuei adiante, e concluí o desafio com sucesso!
 
@@ -27,5 +31,3 @@ Para executar em JavaScript `npm install && npm start`:
 
 ## Registro de horas
 [Clique aqui para acessar o registro de horas utilizando o software Clockify](https://app.clockify.me/shared/6221a727a18ef01fdac1d47e)
-
-
